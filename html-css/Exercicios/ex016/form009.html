@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" oninput="idade.value = new Date().getFullYear() - inasc.value">
+        <label for="inasc">Ano de nascimento: </label>
+        <input type="number" name="nascimento" id="inasc" required min="1900" max="2025"><br>
+        <label for="idade">Idade: </label>
+        <output id="idade">0</output>
+    </form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tp-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mesclagem de celulas</title>
+</head>
+
+<style>
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    table{
+        width: 500px;
+        border-collapse: collapse;
+
+    }
+
+    td{
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+        
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <td rowspan="2">a</td>
+           
+            <td colspan="2">c</td>
+        </tr>
+
+        <tr>
+            
+            <td rowspan="3">e</td>
+            <td >f</td>
+        </tr>
+
+        <tr>
+            <td>g</td>
+            
+            <td>i</td>
+        </tr>
+
+        <tr>
+            <td>j</td>
+            <td rowspan="2">k</td>
+            
+        </tr>
+    </table>
+</body>
+</html>

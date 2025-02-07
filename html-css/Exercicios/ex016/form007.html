@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" oninput="resultado.value = parseFloat(num2.value) - parseFloat(num1.value)">
+        
+        <label for="num1">Ano de nascimento:</label>
+        <input type="number" id="num1" name="num1" min="1900" max="2025" required>
+        <br>
+        <label for="num2">Ano atual:</label>
+        <input type="number" id="num2" name="num2" min="2025" max="2025" required>
+        <br>
+        <label for="resultado">Idade:</label>
+        <output name="resultado">0</output>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        h1{
+            padding: 10px;
+            text-align: center;
+        }
+        table{
+            width: 1000px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+
+        caption{
+            background: linear-gradient(to bottom, lightgray, gray) ;
+            padding: 15px;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding-top: 0px;
+        
+            
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background: gray;
+        }
+
+        td, th{
+            border: 1px solid black;
+            
+            text-align: center;
+            padding: 10px;
+
+        }
+
+        th{
+            background: gray;
+        }
+
+        
+
+        tbody > tr:nth-child(2n){
+            background: lightblue;
+            
+            
+
+        }
+        tbody > tr:nth-child(odd){
+            font-weight: bold;
+        }
+       
+
+
+        .num{
+            text-align: right;
+        }
+
+        td:hover{
+            background: lightgray;
+            transition: 0.5s ;
+            cursor: pointer;
+        }
+
+        tfoot > tr{
+            background: gray;
+            font-weight: bolder;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Criando tabelas grandes</h1>
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado	</th>
+                <th scope="col">População (estimada)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">46.289.333</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.473.396</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.463.349</td>
+            </tr>
+            <tr>
+                
+                <td>Bahia</td>
+                <td class="num">15.292.917</td>
+            </tr>
+            <tr>
+                <td>Paraná</td><td class="num">11.819.616</td></tr>
+            <tr>
+                <td>Rio Grande do Sul</td><td class="num">11.466.630</td></tr>
+            <tr>
+                <td>Pernambuco</td><td class="num">9.674.793</td></tr>
+            <tr>
+                <td>Ceará</td><td class="num">9.240.580</td></tr>
+            <tr>
+                <td>Pará</td><td class="num">9.064.724</td></tr>
+            <tr>
+                <td>Santa Catarina</td><td class="num">7.727.276</td></tr>
+            <tr>
+                <td>Goiás</td><td class="num">7.483.893</td></tr>
+            <tr>
+                <td>Maranhão</td><td class="num">7.395.202</td></tr>
+            <tr>
+                <td>Espírito Santo</td><td class="num">4.240.664</td></tr>
+            <tr>
+                <td>Amazonas</td><td class="num">4.269.995</td></tr>
+            <tr>
+                <td>Paraíba</td><td class="num">4.133.476</td></tr>
+            <tr>
+                <td>Rio Grande do Norte</td><td class="num">3.602.295</td></tr>
+            <tr>
+                <td>Mato Grosso</td><td class="num">3.526.220</td></tr>
+            <tr>
+                <td>Alagoas</td><td class="num">3.365.351</td></tr>
+            <tr>
+                <td>Piauí</td><td class="num">3.413.096</td></tr>
+            <tr>
+                <td>Distrito Federal</td><td class="num">3.207.897</td></tr>
+            <tr>
+                <td>Mato Grosso do Sul</td><td class="num">2.832.816</td></tr>
+            <tr>
+                <td>Sergipe</td><td class="num">2.356.719</td></tr>
+            <tr>
+                <td>Rondônia</td><td class="num">1.837.016</td></tr>
+            <tr>
+                <td>Tocantins</td><td class="num">1.607.363</td></tr>
+            <tr>
+                <td>Acre</td><td class="num">906.876</td></tr>
+            <tr>
+                <td>Amapá</td><td class="num">877.613</td></tr>
+            <tr>
+                <td>Roraima</td><td class="num">652.713</td></tr>
+        </tbody>
+        <tfoot>
+
+                <tr>
+                    <th scope="row">Total</th>
+                    <td class="num">215.216.819</td>
+                </tr>
+
+        </tfoot>
+    </table>
+
+ 
+<p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac felis a mi facilisis efficitur vel at erat. Sed fermentum suscipit arcu, at sagittis nulla lacinia sed. Phasellus consectetur varius erat, vel vestibulum nisl facilisis a. Aenean mollis, neque non fermentum dictum, eros metus convallis lorem, vel fringilla arcu libero sit amet justo. Nam nec scelerisque tortor. Donec auctor, metus id malesuada posuere, sapien lectus posuere odio, eget tincidunt lectus justo sed nunc. Suspendisse interdum dolor nec arcu suscipit, sit amet ultrices purus vehicula. Cras nec eros a ligula posuere dictum eget at purus. Duis tristique, turpis a vehicula fermentum, purus purus tincidunt risus, id ultricies quam sapien a libero. Donec vel odio urna.</p>
+    
+    <p>Integer finibus lacus id orci vulputate, ut tincidunt magna venenatis. Nullam et quam eu enim pellentesque fringilla. Nam viverra metus vitae ligula efficitur, nec ultricies erat facilisis. Curabitur tempor gravida magna, sit amet tempor sapien venenatis vel. Fusce sodales odio eget bibendum tempor. Proin nec auctor risus. Suspendisse viverra neque in consequat tincidunt. Nulla in felis sed velit tempus pellentesque sit amet non sem. Duis sit amet tincidunt libero, nec dictum nunc. Pellentesque at sem non ipsum rhoncus fermentum.</p>
+    
+    <p>Vestibulum fermentum neque at lacus consequat bibendum. Integer mollis, magna sit amet facilisis efficitur, orci erat pharetra sapien, quis sodales enim ligula sit amet mi. Curabitur cursus augue eget nulla facilisis varius. Ut nec lorem enim. Aliquam vehicula, magna vel laoreet fringilla, velit elit tincidunt purus, id vestibulum lacus lorem vel nisl. Suspendisse cursus, erat ac dapibus faucibus, arcu velit tempor nisi, id tristique nunc sapien vel ligula. Etiam non tortor at purus vehicula tincidunt non sed metus. Donec ultricies, erat sed egestas pharetra, tortor urna gravida justo, quis fermentum sapien metus ac est.</p>
+    
+    <p>Praesent convallis mauris quis tellus cursus, nec vestibulum elit aliquet. Donec interdum suscipit elit, et pharetra enim gravida id. Maecenas malesuada lectus et sem volutpat, in dapibus lorem faucibus. Ut nec diam id urna sollicitudin pellentesque. Mauris tincidunt ligula eu fringilla ultricies. Cras quis sodales lacus. Vestibulum vitae feugiat nulla. Suspendisse potenti. Nulla sed felis dictum, tincidunt augue quis, tincidunt nisi. Vivamus sit amet ipsum eros.</p>
+    
+    Aenean aliquam augue sed porttitor congue. Quisque scelerisque congue arcu, vel faucibus libero tincidunt ac. Nullam a consequat purus, quis tempor nunc. Nullam vitae quam malesuada, consequat eros quis, gravida purus. Proin ut augue sagittis, tincidunt enim eget, iaculis libero. Nullam ac ligula et ligula vestibulum vestibulum a ut ligula. Sed gravida ex sit amet orci iaculis, nec ultrices nunc pharetra. Cras dictum viverra nisl. Sed suscipit, lorem ut porttitor tincidunt, sapien est tempor nulla, ut pharetra arcu velit sed neque.
+    
+    Nullam ac dolor at dolor tristique gravida. Aenean malesuada vulputate eros, in pharetra ligula laoreet et. Mauris gravida tristique nisl, vitae tempus dolor tristique eu. Ut vestibulum enim sit amet mi suscipit dictum. Proin rhoncus sapien id dui ultricies dictum. Sed sodales volutpat odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent fringilla vel sem nec volutpat. Proin tincidunt felis ac velit egestas, vel dignissim purus interdum. Donec nec massa id odio fermentum fringilla.
+    
+    Suspendisse potenti. Cras consectetur gravida magna, vel pharetra nunc viverra non. Ut scelerisque sapien et mauris lacinia pretium. Nulla aliquam, elit quis dictum vehicula, arcu elit sollicitudin augue, vel vehicula felis ipsum vel justo. In id semper dolor, id scelerisque velit. Ut aliquam lacinia ex at rutrum. Proin aliquam, lorem vel finibus gravida, ipsum velit fringilla tortor, quis vehicula turpis nunc sed augue. Aliquam erat volutpat. Integer fermentum elit at odio iaculis, vitae aliquet ipsum vestibulum. Nulla facilisi.
+    
+    Donec nec efficitur urna. Fusce tincidunt nunc sed lectus varius gravida. Nulla mollis ligula a magna pharetra tristique. Aliquam sed orci malesuada, efficitur lacus nec, sagittis eros. Nunc nec tellus eu sapien sodales consequat. Nulla nec orci odio. Mauris ac eros sit amet lectus convallis tincidunt nec a urna. Vivamus facilisis, velit in vulputate tincidunt, ligula augue tincidunt metus, a gravida lorem eros nec enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    
+    Curabitur vitae orci nec mauris ultrices luctus. Integer posuere dolor ac dui blandit faucibus. Suspendisse vehicula justo vel urna bibendum mollis. Integer suscipit magna euismod, molestie erat eu, feugiat turpis. Nam vulputate lacinia fermentum. Ut pretium luctus magna, id volutpat dolor. Suspendisse id volutpat ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed a nisi quis tortor vestibulum bibendum nec sit amet turpis. Vivamus nec arcu vitae nisi dapibus posuere.
+    
+    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean vitae fringilla odio. Donec volutpat dui sit amet magna ullamcorper iaculis. Suspendisse potenti. Praesent vel mi at libero pharetra efficitur. Nulla in augue in lorem porttitor posuere sed non enim. Sed consequat velit euismod libero auctor, vel aliq
+</p>uet nisi tempus. Fusce volutpat libero in sapien posuere, non auctor metus tristique. Nam vehicula, metus sed egestas feugiat, orci lorem scelerisque nisl, at hendrerit elit dolor ac metus.
+
+--
+</body>
+</html>

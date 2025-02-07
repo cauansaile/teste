@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas mescladas</title>
+</head>
+<style>
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    table{
+        border-collapse: collapse;
+
+    }
+
+    caption{
+        font-size: 1.5em;
+        font-weight: bold;
+        
+    }
+
+    td, th{
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .nome{
+        width: 150px;
+    }
+
+    th{
+        background: lightyellow;
+    }
+</style>
+<body>
+    <table>
+        <caption>FILMES FAVORITOS</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col" class="nome">Nome</th>
+                <th colspan="3" scope="colgroup">Filme</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="5" scope="rowgroup">Mulheres</th>
+                <td>Carolina</td>
+                <td>Harry Potter</td>
+                <td>A Bela e a Fera</td>
+                <td>Adoráveis Mulheres</td>
+            </tr>
+            <tr>
+                <td>Joana</td>
+                <td>Viúva Negra</td>
+                <td>Jojo Rabbit</td>
+                <td>História de um Casamento</td>
+            </tr>
+            <tr>
+                <td>Beatriz</td>
+                <td>O Diabo Veste Prada</td>
+                <td>Dúvida</td>
+                <td>Mamma Mia!</td>
+            </tr>
+            <tr>
+                <td>Claudia</td>
+                <td>Mulher-Maravilha</td>
+                <td>Liga da Justiça</td>
+                <td>Velozes e Furiosos 6</td>
+
+            </tr>
+            <tr>
+                <td>Luana</td>
+                <td>O Diário da Princesa</td>
+                <td>Interestelar</td>
+                <td>Os Miseráveis</td>
+            </tr>
+            <tr>
+                <th rowspan="5" scope="rowgroup">Homens</th>
+                
+                <td>Cauan</td>
+                <td>Titanic</td>
+                <td>A Origem</td>
+                <td>O Lobo de Wall Street</td>
+
+            </tr>
+
+            <tr>
+                <td>Luan</td>
+                <td>Homem de Ferro</td>
+                <td>Vingadores: Ultimato</td>
+                <td>Sherlock Holmes</td>
+
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>Forrest Gump</td>
+                <td>Náufrago</td>
+                <td>O Resgate do Soldado Ryan</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>Thor</td>
+                <td>Resgate</td>
+                <td>Os Vingadores</td>
+
+            </tr>
+            <tr>
+                <td>Felipe</td>
+                <td>À Procura da Felicidade</td>
+                <td>Eu Sou a Lenda</td>
+                <td>Bad Boys</td>
+
+            </tr>
+        </tbody>
+            
+        
+    </table>
+</body>
+</html>
