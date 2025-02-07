@@ -1,0 +1,166 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --fonte-titulo: 'Passion One', arial, helvetica, sans-serif;
+    --fonte-texto: 'Sriracha', cursive;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+    height: 200px;
+   margin: -10px -10px
+}
+
+header h1{
+    font-family: var(--fonte-titulo);
+    font-weight: bold;
+    font-size: 3em;
+    color : white;
+    margin: -10px;
+    margin: auto;
+    text-align: center;
+    padding-top: 55px;
+}
+
+header p{
+    color: white;
+    text-align: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte-titulo);
+    font-weight: lighter;
+    font-size: 1.3em;
+
+}
+
+header a:hover{
+    text-decoration: underline;
+
+}
+
+#texto1{
+    height: 400px;
+    position: relative;
+}
+
+#texto1 p{
+    font-family: var(--fonte-texto);
+    text-align: left;
+    font-size: 1.3em;
+    position: absolute;
+    top: 20%;
+    padding-right: 100px;
+    margin-left: 20px;
+    
+}
+
+#texto2{
+    background: white url(../imagens/background001.jpg) center center no-repeat fixed;
+    height: 400px;
+    position: relative;
+}
+
+
+
+#box1 p{
+    font-family: var(--fonte-texto);
+    text-align: left;
+    font-size: 1.3em;
+    position: absolute;
+    top: 17%;
+    color: white;
+    background: rgba(0, 0, 0, 0.312);
+    width: 320px;
+    margin-left: 20px;
+    
+    
+}
+
+#texto3{
+    height: 600px;
+    
+}
+
+#p1{
+    font-family: var(--fonte-texto);
+    font-size: 1.3em;
+    padding-right: 100px;
+    margin-left: 20px;
+    padding-top: 40px;
+}
+
+#p2{
+    font-family: var(--fonte-texto);
+    font-size: 1.3em;
+    padding-right: 100px;
+    margin-left: 20px;
+    
+}
+
+
+#texto4{
+    background: white url(../imagens/background002.jpg) center bottom no-repeat fixed;
+    height: 400px;
+    position: relative;
+}
+
+
+
+#box2 p{
+    font-family: var(--fonte-texto);
+    text-align: left;
+    font-size: 1.3em;
+    position: absolute;
+    top: 17%;
+    color: white;
+    background: rgba(0, 0, 0, 0.312);
+    width: 320px;
+    margin-left: 20px;
+    
+    
+}
+
+#texto5{
+    height: 600px;
+    
+}
+
+
+#texto6{
+    font-family: var(--fonte-texto);
+    font-size: 1.3em;
+    padding-right: 100px;
+    margin-left: 20px;
+    padding-top: 40px;
+}
+
+#texto7{
+    font-family: var(--fonte-texto);
+    font-size: 1.3em;
+    padding-right: 100px;
+    margin-left: 20px;
+    
+}
+
+
+
+footer{
+    background: black;
+    margin: -10px;
+
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    
+}
