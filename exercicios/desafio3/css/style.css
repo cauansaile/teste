@@ -1,0 +1,54 @@
+body{
+    background: rgb(44, 38, 38);
+}
+h1{
+    color: aquamarine;
+}
+.box{
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: bisque;
+}
+.imagens{
+    display: flex;
+    justify-content: center;
+
+}
+.imagens-topo{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.link{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue ;
+    cursor: pointer;
+    transition: 0.4s;
+    height: 50px;
+
+
+}
+.link:hover{
+    
+    color: cyan;
+    transform: translateY(-2px);
+}
+.texto{
+    text-align: center;
+    color: aliceblue;
+}
+.voltar{
+    display: flex;
+    justify-content: center;
+}
