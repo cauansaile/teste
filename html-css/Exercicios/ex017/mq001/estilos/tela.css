@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* css tela */
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header{
+    background-color: #959595;
+    padding: 10px;
+    
+}
+h1{
+    text-align: center;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(90, 89, 89);
+}
+article{
+    width: 500px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+}

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* css para impressão */
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+menu{
+    display: none;
+}
+
+main::after{
+    content: 'Esse artigo foi impresso nestante por mim mesmo né';
+}
+
+article{
+    width: 100vw;
+    text-align: center;
+}
