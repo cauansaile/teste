@@ -1,0 +1,37 @@
+body{
+    background:  #cbdcef ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1#principal{
+    text-align: center;
+    background: #466486;
+    color: white;
+
+}
+
+h1{
+    color: #344B64;
+}
+
+h2{
+    color: #587DA8;
+}
+
+.basico{
+    color: #587DA8;
+
+}
+
+.intermediario{
+    color: #a8a458;
+
+}
+
+.avancado{
+    color: #a85858;
+
+}
+p{
+    text-align: justify;
+}

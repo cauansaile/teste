@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seletores</title>
+    <style>
+        body{
+            background: #e3bdea;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+        h1{
+            text-align: center;
+            background: #966CAD;
+            color: whitesmoke;
+
+        }
+        h2{
+            color: #5B4169;
+            font-weight: normal;
+
+        }
+        div > a{
+            text-decoration: none;
+
+        }
+      
+        div > a:visited{
+            color: brown;
+            
+        }
+        div > a:hover{
+            color: #402e49;
+            text-decoration: underline;
+            
+        }
+        div > p{
+            font-size: 1.5em;
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+        }
+        #mercado::after{
+            content: "  [ 'link' ]";
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Melhores sites para comprar em 2024</h1>
+    <h2>1- Buscapé</h2>
+    <div class="link">
+        <p>O melhor site para comprar em 2024 foi o buscapé</p>
+        <a href="https://www.buscape.com.br/" target="_blank" rel="external">Site oficial do buscapé</a>
+
+    </div>
+
+    <h2>2- Mercado Livre</h2>
+    <div class="link">
+        <a href="https://www.mercadolivre.com.br/" id="mercado" target="_blank" rel="external">Site oficial do Mercado Livre</a> 
+    </div>
+
+   
+</body>
+</html>
